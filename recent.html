@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image with Content</title>
+<style>
+  body {
+    position: relative; /* Make the body a positioning context */
+    background-image: url('https://d2jx2rerrg6sh3.cloudfront.net/images/news/ImageForNews_729626_1667293311353136.jpg'); /* Replace 'your_image.jpg' with the path to your image */
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    height: 800px; /* Set height of the background */
+    width: 500px; /* Set width of the background */
+    opacity: 1; /* Set opacity to make the image slightly transparent */
+  }
+
+  .question-container {
+    position: absolute; /* Position the container relative to the body */
+    top: 50%; /* Position it 50% from the top */
+    left: 120%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%); /* Center the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+  }
+
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button-link:hover {
+    background-color: #222;
+  }
+</style>
+</head>
+<body>
+  <div class="question-container">
+    <h2>REPORT</h2>
+    <h3>We are very sorry to inform you that you need assistance. </h3>
+    <h3>But we are here with some easy steps to resolve your problem. </h3>
+    <p>Staying positive.</p>
+    <p>Practicing gratitude, which means being thankful for the good things in your life.</p>
+    <p>Taking care of your physical health, since your physical and mental health are connected.</p>
+    <p>Connecting with others.</p>
+    <p>Developing a sense of meaning and purpose in life.</p>
+    <!-- Example button link -->
+    <a href="survey.html" target="_blank" class="button-link">GO BACK</a>
+  </div>
+</body>
+</html>
